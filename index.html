@@ -7,7 +7,49 @@
     <link rel="stylesheet" href="style.css">
     <title>Web APIs</title>
 </head>
-<body>
+<body >
+
+    <div id="head">
+      <h1>How can we help you?</h1>
+
+      <p>If you are an existing customer, please contact us <a href="http://127.0.0.1:5500/index1.html"><span>here.</span></a></p>
+
+      <h2>New customers should please fill the forms below</h2>
+    </div>
+
+    <form name="myForm" onsubmit="return validateForm()" method="post">
+
+    <div id="contact-form">
+
+        <div>
+          <input type="text" name="fname" placeholder="First name*" id="fname">
+          <input type="text" name="lname" placeholder="Last name*" id="lname">
+        </div>
+
+        
+        <div>
+            <input type="Contact number" name="pnumber" placeholder="Phone number" id="number">
+            <input type="email" name="eaddress" placeholder="Work email*" id="email">
+        </div>
+
+
+        <div>
+            <input type="text" name="cname" placeholder="Company name*" id="cpny">
+            <p id="company"></p>
+        </div>
+
+
+        <div>
+            <input type="text" name="message" placeholder="Message*" id="msg">
+        </div>
+
+
+        <div>
+            <button id="btn">Submit</button>
+        </div>
+
+    </div>
+    </form>
     
 
 

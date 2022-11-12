@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(241, 238, 234);
+    display: block;
+    text-align: center;
+    
+}
+
+
+#head {
+    width: auto;
+    
+}
+
+
+
+#contact-form {
+    height: 20px;
+    line-height: 100px;
+}
+
+#fname {
+    height: 40px;
+    width: 245px;
+}
+
+#lname {
+    height: 40px;
+    width: 245px;
+}
+
+#number {
+    height: 40px;
+    width: 245px;
+}
+
+#email {
+    height: 40px;
+    width: 245px;
+}
+
+#cpny {
+    height: 40px;
+    width: 500px;
+}
+
+#msg {
+    height: 100px;
+    width: 500px;
+    padding: top 0px;
+}
+
+#btn {
+    background-color: rgb(155, 168, 230);
+    text-align: center;
+    height: 50px;
+    width: 510px;
+    border-radius: 10px;
+}
